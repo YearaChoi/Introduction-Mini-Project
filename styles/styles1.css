@@ -58,6 +58,10 @@
   font-family: tabk;
 }
 
+.text-container h1:hover{
+  color:#fff3E0;
+}
+
 /* 이미지와 텍스트 관계 조절 */
 .text-container h3 img {
   height: 1em; /* 텍스트 크기에 맞추기 */
@@ -67,7 +71,7 @@
 
 /* about 섹션 스타일 */
 #introduce {
-  height: 40vh; /* 화면 전체 높이로 설정 */
+  height: 100vh; /* 화면 전체 높이로 설정 */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,5 +83,6 @@
 
 #introduce h1 {
   color: rgb(137, 79, 41);
+  font-family: tabk;
 }
 
