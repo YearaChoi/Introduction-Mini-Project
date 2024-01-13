@@ -1,0 +1,104 @@
+.section__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 세로 중앙 정렬 */
+}
+
+.section__tag {
+  color: #0b7731;
+  margin-top: 20px;
+  margin-bottom: 0.2em; /* 간격 조절 */
+  font-size: 25px;
+}
+
+.section__title {
+  margin-bottom: 0.2em; /* 간격 조절 */
+  font-size: 40px;
+}
+
+/* About 섹션 스타일 수정 */
+#about {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 세로 중앙 정렬 */
+  justify-content: center; /* 가로 중앙 정렬 */
+  background: linear-gradient(45deg, rgb(247, 110, 60), rgb(245, 128, 99));
+  padding: 20px; /* 내부 여백 조절 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+/* 데스크탑의 경우 카드 가로 정렬 */
+.about {
+  display: inline-flex;
+  gap: 1.5em;
+  margin-top: 50px;
+  justify-content: center; /* 중앙 정렬을 추가 */
+}
+/* 카드 */
+.about__card {
+  padding: 25px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color:#ffffff;
+  border-radius: 40px;
+}
+
+/* 아이콘 */
+.about__icon {
+  width: 120px;
+  opacity: 0.25;
+}
+
+/* 카드 안의 텍스트 */
+.about__title {
+  margin-top: 0.6em;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.about__title._1 {
+  color: #e2560b;
+}
+.about__title._2 {
+  color: #e2560b;
+}
+.about__title._3 {
+  color: #e2560b;
+}
+
+.about__text {
+  margin-top: 0.2em;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  /* 모바일의 경우 카드 세로 정렬 */
+  .about {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  /* 데스크탑에서 grid가 가로 전체를 차지하도록 변경 */
+  #about {
+    grid-column: 1 / -1;
+  }
+  .about__card {
+    position: relative;
+    width:  280px;
+    cursor: pointer;
+    transition: all 350ms;
+  }
+  /* 영역에 마우스 오버시 해당 카드 외 축소 */
+  .about:hover .about__card:not(:hover) {
+    transform: scale(0.9);
+  }
+    .about__card:hover {
+      transform: scale(1.04);
+    }
+    .about__card:hover .about__icon {
+      opacity: 1;
+    }
+}

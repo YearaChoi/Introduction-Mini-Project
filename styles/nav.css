@@ -1,0 +1,55 @@
+.header__nav{
+  display: flex;
+  position: sticky;
+
+  /* 스크롤업되는 컨텐츠 위로 올라오도록 */
+  z-index: 2;
+
+  top: 0;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(40, 39, 38);
+
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+
+.header__nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* 헤더 상단 네비게이션 */
+.header__nav-item {
+  font-size: 20;
+}
+
+/* 네비게이션 링크 */
+.header__nav-item a {
+  /* a태그가 높이를 꽉 채우게 함으로 사용자가 클릭할 수 있는 영역 확대  */
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 769px) {
+  .header__nav-item {
+    display: inline-block;
+    /* 네비게이션 가로로 배치 */
+    position: relative;
+  }
+  .header__nav-item:last-child {
+    margin-right: 1.6em;
+    /* 맨 오른쪽 바에 여백 */
+  }
+  .header__nav-item a {
+    padding: 0 0.8em;
+    /* 버튼끼리 간격생성 */
+  }
+}
