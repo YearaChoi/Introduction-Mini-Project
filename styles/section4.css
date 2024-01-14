@@ -1,9 +1,49 @@
 #modified.section4 {
-  height: 200vh;
   display: flex;
-  align-items: center; /* 세로 중앙 정렬 */
-  justify-content: center; /* 가로 중앙 정렬 */
-  background-color: rgb(112, 111, 110);
-  padding: 20px; /* 내부 여백 조절 */
-  text-align: center; /* 텍스트 중앙 정렬 */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* 세로 중앙 정렬을 위해 추가 */
+  background-color: #fff3E0;
+  padding: 20px;
+  text-align: center;
+}
+
+.section4__title {
+  font-family: tabk;
+  font-size: 40px;
+}
+
+.section4__text {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 세로 중앙 정렬을 위해 추가 */
+  justify-content: center; /* 가로 중앙 정렬을 위해 추가 */
+}
+
+.section4__text h2{
+  font-family: tabk;
+}
+
+.section4__text section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+
+.section4__text img {
+  object-fit: cover;
+  margin: 50px 0; 
+  height: 360px;
+}
+
+.section4__text h2,
+.section4__text h4 {
+  margin: 10px 0; /* 상단과 하단 마진 추가 */
+}
+
+.section4__text h4 {
+  flex-grow: 1;
+  padding-bottom: 10px;
 }
