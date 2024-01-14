@@ -33,16 +33,22 @@
 
 .section4_1__text h2,
 .section4_1__text h4 {
-  margin: 10px 0; /* 상단과 하단 마진 추가 */
+  margin: 10px 0; 
 }
 
+/* .section4_1__text h2{
+  font-family: sans;
+} */
+
 .section4_1__text h4 {
+  font-family: sans;
   flex-grow: 1;
   padding-bottom: 10px;
 }
 
 .section4_1__img{
   height: 70px;
+  margin-bottom: 10px;
 }
 
 .section4_1__img:hover{

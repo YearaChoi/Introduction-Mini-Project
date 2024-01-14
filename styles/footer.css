@@ -11,6 +11,7 @@ footer {
 #contact footer address .image-container {
   display: flex;
   flex-direction: row; /* 가로로 정렬 */
+  margin-top: 25px;
   margin-bottom: 10px;
   margin-left: 50px;
 }
@@ -29,19 +30,20 @@ footer {
   opacity: 0.6; 
 }
 
-#contact footer address .text-container {
-  color: aliceblue;
-}
-
 #contact footer address .image-container a img {
   width: 60px; 
 }
 
 footer address .text-container{
-  font-size: 14px;
-  color: rgb(221, 219, 219);
-  opacity: 0.7;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-family: sans;
+  font-size: 11px;
+  font-weight: 100;
+  color: white;
+  opacity: 0.8;
 }
+
 
 
 

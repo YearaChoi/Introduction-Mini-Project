@@ -44,6 +44,7 @@
 
 /* 카드 안의 텍스트 */
 .about__title {
+  font-family: cafe;
   margin-top: 0.6em;
   font-size: 19px;
   font-weight: bold;
