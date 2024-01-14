@@ -1,0 +1,28 @@
+.section5 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* 세로 정렬을 위해 컨테이너를 세로로 설정 */
+  align-items: center; /* 세로 중앙 정렬 */
+  justify-content: center; /* 가로 중앙 정렬 */
+  background-color: rgb(255, 249, 243);
+  padding: 20px; /* 내부 여백 조절 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+.section5__animation {
+  margin-bottom: 20px; 
+}
+
+.section5__text{
+  font-family: tabk;
+  font-size: 25px;
+}
+
+/* 이미지와 텍스트 관계 조절 */
+.section5__text h2 img {
+  height: 1em; 
+  vertical-align: middle; /* 수직 정렬 */
+  margin-left: 5px;
+}
+
+

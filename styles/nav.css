@@ -28,6 +28,10 @@
   font-size: 20;
 }
 
+.header__nav-item:hover{
+  opacity: 0.6; 
+}
+
 /* 네비게이션 링크 */
 .header__nav-item a {
   /* a태그가 높이를 꽉 채우게 함으로 사용자가 클릭할 수 있는 영역 확대  */

@@ -1,0 +1,9 @@
+#modified.section4 {
+  height: 200vh;
+  display: flex;
+  align-items: center; /* 세로 중앙 정렬 */
+  justify-content: center; /* 가로 중앙 정렬 */
+  background-color: rgb(112, 111, 110);
+  padding: 20px; /* 내부 여백 조절 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
