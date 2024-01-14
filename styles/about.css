@@ -4,13 +4,6 @@
   align-items: center; /* 세로 중앙 정렬 */
 }
 
-.section__tag {
-  color: #0b7731;
-  margin-top: 20px;
-  margin-bottom: 0.2em; /* 간격 조절 */
-  font-size: 25px;
-}
-
 .section__title {
   margin-bottom: 0.2em; /* 간격 조절 */
   font-size: 40px;
@@ -24,7 +17,6 @@
   align-items: center; /* 세로 중앙 정렬 */
   justify-content: center; /* 가로 중앙 정렬 */
   background: linear-gradient(45deg, rgb(255, 115, 0), rgb(255, 186, 67));
-  padding: 20px; /* 내부 여백 조절 */
   text-align: center; /* 텍스트 중앙 정렬 */
 }
 
@@ -68,7 +60,7 @@
 }
 
 .about__text {
-  margin-top: 0.2em;
+  font-family: sans;
   font-size: 15px;
 }
 

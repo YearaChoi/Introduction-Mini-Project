@@ -84,5 +84,24 @@
 #introduce h1 {
   color: rgb(137, 79, 41);
   font-family: tabk;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
+
+#introduce p {
+  margin: 10px;
+}
+
+.introduce__img {
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.introduce__img:hover{
+  scale: 1.5;
+}
+
+
+
+
 

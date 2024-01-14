@@ -9,8 +9,8 @@
 }
 
 .section4__title {
-  font-family: tabk;
-  font-size: 40px;
+  margin-top: 60px;
+  font-size: 38px;
 }
 
 .section4__text {
@@ -19,10 +19,12 @@
   flex-direction: column;
   align-items: center; /* 세로 중앙 정렬을 위해 추가 */
   justify-content: center; /* 가로 중앙 정렬을 위해 추가 */
+  margin-bottom: 60px;
 }
 
 .section4__text h2{
-  font-family: tabk;
+  font-family: cafe;
+  font-size: 45px;
 }
 
 .section4__text section {
@@ -36,6 +38,13 @@
   object-fit: cover;
   margin: 50px 0; 
   height: 360px;
+
+  filter: grayscale(100%);
+  transition: filter 0.3s ease; 
+}
+
+.section4__text img:hover{
+  filter: grayscale(0%);
 }
 
 .section4__text h2,
