@@ -22,7 +22,7 @@ footer {
 }
 
 #contact footer address .image-container a img {
-  width: 120px; 
+  width: 60px; 
   border-radius: 47%; 
 }
 
@@ -30,11 +30,9 @@ footer {
   opacity: 0.6; 
 }
 
-#contact footer address .image-container a img {
-  width: 60px; 
-}
 
 footer address .text-container{
+  text-align: center;
   margin-top: 15px;
   margin-bottom: 20px;
   font-family: sans;

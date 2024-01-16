@@ -1,17 +1,15 @@
-/* 헤더 컨테이너 */
 .header-container {
   height: 100vh;
   display: flex;
   align-items: center; /* 세로 중앙 정렬 */
   justify-content: center; /* 가로 중앙 정렬 */
   background: linear-gradient(45deg, rgb(249, 171, 14), rgb(250, 92, 18));
-  padding: 20px; /* 내부 여백 조절 */
+  padding: 20px; 
   text-align: center; /* 텍스트 중앙 정렬 */
 }
 
-/* 이미지 컨테이너 */
 .image-container {
-  margin-right: 20px; /* 이미지와 텍스트 사이의 간격 조절 */
+  margin-right: 20px; /* 이미지와 텍스트 사이 간격 조절 */
   cursor: pointer;
 }
 
@@ -19,7 +17,6 @@
   transform: scale(1.04);
 }
 
-/* 이미지를 동그라미로 만들기 */
 .round-image {
   border-radius: 50%;
   object-fit: cover;
@@ -39,23 +36,20 @@
   to { transform: translateY(10px); }
 }
 
-/* 텍스트 스타일링 */
+.text-container {
+  font-family: tabk;
+  color: rgb(0, 0, 0); 
+  text-align: left; 
+}
+
 .text-container h1 {
   font-size: 90px; 
   margin: 0; 
-  color: rgb(0, 0, 0); 
-  text-align: left; 
 }
 
 .text-container h3 {
   font-size: 50px; 
   margin: 0; 
-  color: rgb(0, 0, 0); 
-  text-align: left; 
-}
-
-.text-container h1, .text-container h3{
-  font-family: tabk;
 }
 
 .text-container h1:hover{
@@ -66,40 +60,7 @@
 .text-container h3 img {
   height: 1em; /* 텍스트 크기에 맞추기 */
   vertical-align: middle; /* 수직 정렬 */
-  margin-left: 5px; /* 이미지와 텍스트 사이 간격 조절 */
-}
-
-/* about 섹션 스타일 */
-#introduce {
-  height: 100vh; /* 화면 전체 높이로 설정 */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff3E0; /* 배경색 지정 */
-  color: rgb(0, 0, 0); /* 텍스트 색상 지정 */
-  text-align: center;
-  padding: 20px; /* 내부 여백 조절 */
-}
-
-#introduce h1 {
-  color: rgb(137, 79, 41);
-  font-family: tabk;
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-
-#introduce p {
-  margin: 10px;
-  font-size: 18px;
-}
-
-.introduce__img {
-  height: 100px;
-  margin-bottom: 5px;
-}
-
-.introduce__img:hover{
-  scale: 1.5;
+  margin-left: 5px; 
 }
 
 

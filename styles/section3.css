@@ -1,23 +1,16 @@
-.section__header {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* 세로 중앙 정렬 */
-}
-
-.section__title {
-  margin-bottom: 0.2em; /* 간격 조절 */
-  font-size: 40px;
-}
-
-/* About 섹션 스타일 수정 */
 #about {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center; /* 세로 중앙 정렬 */
-  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; 
+  justify-content: center; 
   background: linear-gradient(45deg, rgb(255, 115, 0), rgb(255, 186, 67));
-  text-align: center; /* 텍스트 중앙 정렬 */
+  text-align: center; 
+}
+
+.section__title {
+  margin-bottom: 0.2em; 
+  font-size: 40px;
 }
 
 /* 데스크탑의 경우 카드 가로 정렬 */
@@ -27,6 +20,7 @@
   margin-top: 50px;
   justify-content: center; /* 중앙 정렬을 추가 */
 }
+
 /* 카드 */
 .about__card {
   padding: 25px;
@@ -48,15 +42,6 @@
   margin-top: 0.6em;
   font-size: 19px;
   font-weight: bold;
-}
-
-.about__title._1 {
-  color: #e2560b;
-}
-.about__title._2 {
-  color: #e2560b;
-}
-.about__title._3 {
   color: #e2560b;
 }
 
@@ -88,10 +73,10 @@
   .about:hover .about__card:not(:hover) {
     transform: scale(0.9);
   }
-    .about__card:hover {
-      transform: scale(1.04);
-    }
-    .about__card:hover .about__icon {
-      opacity: 1;
-    }
+  .about__card:hover {
+    transform: scale(1.04);
+  }
+  .about__card:hover .about__icon {
+    opacity: 1;
+  }
 }

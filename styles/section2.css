@@ -1,0 +1,31 @@
+#introduce {
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff3E0; 
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px; 
+}
+
+#introduce h1 {
+  color: rgb(137, 79, 41);
+  font-family: tabk;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#introduce p {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.introduce__img {
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.introduce__img:hover{
+  scale: 1.5;
+}
